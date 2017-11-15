@@ -1,0 +1,39 @@
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 768px) {
+    .home-second {
+        font-size: 16px;
+    }
+
+    .element_typed {
+        font-size: 20px;
+    }
+
+    .home-second  br {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .element_typed {
+        font-size: 16px;
+    }
+
+    #particles-js {
+        margin-top: 100px;
+    }
+
+    .intro-lead-in h1 {
+        font-size: 20px;
+    }
+}
+
+.footer-paragraph {
+    color: white;
+}
